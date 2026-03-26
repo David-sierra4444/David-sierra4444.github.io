@@ -10,7 +10,7 @@ padding: 0;
 }
 /*clases especiales*/
 .borde{
-border:1px solid gray;
+border:1px solid rgb(4, 0, 0);
 }
 .titulo{
 width: 100%;
@@ -63,7 +63,7 @@ nav ul li{
   width: 130px;/*tamaño definido para todas las opciones (los elementos li)*/
   /*se agrega el mismo color a todos los elementos de la
 barra de navegación*/
-background-color: #1696db;
+background-color: #00a6ff;
 }
 /*Para que los elementos ocultos cuando pase el mouse, muestre
 los elementos ul*/
@@ -85,7 +85,7 @@ nav ul li a{
   display:block; /*para poder colocarle un margin o un padding
 al elemento <a>*/
 text-decoration: none;/*quitar el subrayado del link del anchor <a>*/
-color: #ffffff;
+color: #281313;
 padding: 15px 2px; /*Recuerde que es arriba(15px)-derecha(2px)-abajo(15)-izquierda(2)*/
 text-align: center;
 border-bottom: 2px solid #00f2ff;/*borde inferior al elemento <a>*/
@@ -94,7 +94,7 @@ border-bottom: 2px solid #00f2ff;/*borde inferior al elemento <a>*/
 el proposito es que algo cambie o resalte cuando pase el cursor
 por descendencia el elemento <a> tendrá este efecto*/
 nav ul li a:hover{
-  background: rgba(81, 0, 255, 0.5);/*una opacidad mientras el puntero
+  background: rgba(100, 63, 181, 0.5);/*una opacidad mientras el puntero
 pasa sobre la opcion*/
 border-bottom: 2px solid rgb(0, 255, 247);
 }
@@ -194,7 +194,7 @@ height:70%;
 width: 100%;
 height:30%;
 padding: 2px;
-background: rgb(255,255,255,0.9);
+background: rgba(255, 255, 255, 0.9);
 text-align: center;
 }
 /*dirección contacto*/
@@ -251,7 +251,7 @@ font-family: "Caveat", cursive;
 nav{
 width: 100%;
 height: 50px;
-background-color: #BED3FA;
+background-color: #385fa6;
 max-width: 1280px;
 }
 .titulo{
